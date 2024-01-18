@@ -2,10 +2,102 @@
     "bentonite": {
         "porosity": {
             "1": {
-                "name": "",
+                "name": "GBM porosity",
+                "value": 0.331,
+                "units": "1",
+                "source": "QDS-1612F-TaskC-specification v1"}
+        },
+        "density": {
+            "1": {
+                "name": "GBM dry bulk density",
+                "value": 1490.0,
+                "units": "kg m^{-3}",
+                "source": "QDS-1612F-TaskC-specification v1"}
+        },
+        "specific_heat_capacity":  {
+            "1": {
+                "name": "GBM solid specific heat capacity",
+                "value": 800,
+                "units": "J kg^{-1} K^{-1}",
+                "source": "QDS-1612F-TaskC-specification v1"}
+        },
+        "thermal_conductivity":  {
+            "1": {
+                "name": "GBM dry thermal conductivity",
+                "value": 0.35,
+                "units": "w m^{-1} K^{-1}",
+                "source": "QDS-1612F-TaskC-specification v1"}
+        },
+        "thermal_conductivity":  {
+            "1": {
+                "name": "GBM sat thermal conductivity",
+                "value": 1.2,
+                "units": "w m^{-1} K^{-1}",
+                "source": "QDS-1612F-TaskC-specification v1"}
+        },
+        "intrinsic_permeability":  {
+            "1": {
+                "name": "GBM intrinsic permeability",
+                "value": 3.5e-20,
+                "units": "m^2",
+                "source": "QDS-1612F-TaskC-specification v1"}
+        },
+        "vanGenuchten_p_b":  {
+            "1": {
+                "name": "GBM van Genuchten entry pressure",
+                "value": 28.6e6,
+                "units": "Pa",
+                "source": "QDS-1612F-TaskC-specification v1"}
+        },
+        "vanGenuchten_n":  {
+            "1": {
+                "name": "GBM van Genuchten n",
+                "value": 2.0,
+                "units": "1",
+                "source": "QDS-1612F-TaskC-specification v1"}
+        },
+        "vanGenuchten_S_l_max":  {
+            "1": {
+                "name": "GBM van Genuchten max liquid saturation",
+                "value": 1.0,
+                "units": "1",
+                "source": "QDS-1612F-TaskC-specification v1"}
+        },
+        "vanGenuchten_S_l_min":  {
+            "1": {
+                "name": "GBM van Genuchten residual liquid saturation",
                 "value": 0.0,
-                "units": "",
-                "source": ""}
+                "units": "1",
+                "source": "QDS-1612F-TaskC-specification v1"}
+        },
+        "youngs_modulus":  {
+            "1": {
+                "name": "GBM Youngs modulus",
+                "value": 18e6,
+                "units": "Pa",
+                "source": "QDS-1612F-TaskC-specification v1"}
+        },
+        "poissons_ratio":  {
+            "1": {
+                "name": "GBM poissons ratio",
+                "value": 0.35,
+                "units": "1",
+                "source": "QDS-1612F-TaskC-specification v1"}
+        },
+        "thermal_expansivity":  {
+            "1": {
+                "name": "GBM linear thermal expansion coefficient",
+                "value": 3.0e-6,
+                "units": "K^{-1}",
+                "source": "QDS-1612F-TaskC-specification v1"}
+        },
+        "biot_coefficient":  {
+            "1": {
+                "name": "GBM Biot coefficient",
+                "value": 1,
+                "units": "1",
+                "source": "QDS-1612F-TaskC-specification v1"}
         }
+
     }
 }
